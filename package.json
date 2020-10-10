@@ -1,0 +1,37 @@
+{
+  "name": "redemptor",
+  "version": "0.0.0",
+  "description": "A dynamic website generator and manager, using rubico and Arche(React)",
+  "author": "Richard Tong",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "github:richytong/redemptor"
+  },
+  "homepage": "https://github.com/richytong/redemptor",
+  "keywords": [
+    "arche",
+    "rubico",
+    "react",
+    "reactjs",
+    "hooks",
+    "boilerplate",
+    "website",
+    "generator",
+    "manager",
+    "esm",
+    "es6",
+    "es2020",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "scripts": {
+    "test": "echo \"npm test script not found\""
+  },
+  "dependencies": {
+    "arche": "latest",
+    "rubico": "latest"
+  }
+}
