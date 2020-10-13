@@ -1,5 +1,5 @@
 # redemptor
-> contractor, undertaker, purveyor ([wiktionary](https://en.wiktionary.org/wiki/redemptor))
+> contractor, undertaker, purveyor
 
 Generate native HTML, CSS, and JavaScript web applications with React.
 
