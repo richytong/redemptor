@@ -1,7 +1,7 @@
 {
   "name": "redemptor",
   "version": "0.0.0",
-  "description": "A dynamic website generator and manager, using rubico and Arche(React)",
+  "description": "Website generator and component library. Showcasing ES Modules, rubico, and Arche(React)",
   "author": "Richard Tong",
   "license": "MIT",
   "main": "index.js",
@@ -16,6 +16,7 @@
     "react",
     "reactjs",
     "hooks",
+    "buildless",
     "boilerplate",
     "website",
     "generator",
@@ -25,7 +26,10 @@
     "es2020",
     "javascript",
     "html",
-    "css"
+    "css",
+    "scaffold",
+    "scaffolding",
+    "component"
   ],
   "scripts": {
     "test": "echo \"npm test script not found\""
