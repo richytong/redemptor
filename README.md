@@ -3,7 +3,7 @@
 
 Generate native HTML, CSS, and JavaScript web applications with React.
 
-## Features
+### Features
  * History-based routing
  * Hot-reloading dev server
  * Simple, powerful, and extensible application architecture
@@ -11,7 +11,7 @@ Generate native HTML, CSS, and JavaScript web applications with React.
  * Painless deployment to Amazon S3
  * Component library
 
-## Requirements
+### Requirements
  * AWS Command Line Interface `aws` authorized to create buckets and objects
 
 Create a new project and bucket in S3.
