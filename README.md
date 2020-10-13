@@ -14,13 +14,13 @@ Generate native HTML, CSS, and JavaScript web applications with React.
 ### Requirements
  * AWS Command Line Interface `aws` authorized to create buckets and objects
 
+# Getting Started
 Create a new project and bucket in S3.
 ```sh
 redemptor create ./path/to/your.hostname.com
 # bucket name will be your.hostname.com
 ```
 
-# Getting Started
 Set up a local development server.
 ```sh
 redemptor serve ./path/to/your.hostname.com
