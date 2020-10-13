@@ -1,5 +1,6 @@
 # redemptor
 > contractor, undertaker, purveyor ([wiktionary](https://en.wiktionary.org/wiki/redemptor))
+
 Website generator and component library. Showcasing ES Modules, rubico, and Arche(React).
 
 # Installation
