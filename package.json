@@ -26,10 +26,6 @@
     "es2020",
     "native",
     "javascript",
-    "html",
-    "css",
-    "scaffold",
-    "scaffolding",
     "component"
   ],
   "scripts": {
