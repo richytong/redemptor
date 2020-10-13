@@ -23,11 +23,20 @@ redemptor create ./path/to/your.hostname.com
 Set up a local development server.
 ```sh
 redemptor serve ./path/to/your.hostname.com
+# serve port 8000 by default
+
+redemptor serve -p 3000 ./path/to/your.hostname.com
+redemptor serve --port 3000 ./path/to/your.hostname.com
+# specify the port as 3000
 ```
 
 Deploy to Amazon S3
 ```sh
-redemptor publish ./your.hostname.com
+redemptor publish ./path/to/your.hostname.com
+# default file writing concurrency limit 10 (recommended)
+
+redemptor publish --concurrency 20 ./path/to/your.hostname.com
+# bump the concurrency limit to 20
 ```
 
 # Installation
