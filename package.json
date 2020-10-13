@@ -1,7 +1,7 @@
 {
   "name": "redemptor",
   "version": "0.0.1",
-  "description": "Website generator and component library. Showcasing ES Modules, rubico, and Arche(React)",
+  "description": "Generate native HTML, CSS, and JavaScript web applications with React",
   "author": "Richard Tong",
   "license": "MIT",
   "main": "index.js",
@@ -24,6 +24,7 @@
     "esm",
     "es6",
     "es2020",
+    "native",
     "javascript",
     "html",
     "css",
