@@ -41,7 +41,7 @@ redemptor publish --concurrency 20 ./path/to/your.hostname.com
 ```
 
 # Installation
-Install global executable with `npm`.
+Install globally with `npm`.
 ```sh
 npm i -g redemptor
 ```
