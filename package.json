@@ -1,6 +1,6 @@
 {
   "name": "redemptor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate native HTML, CSS, and JavaScript web applications with React",
   "author": "Richard Tong",
   "license": "MIT",
