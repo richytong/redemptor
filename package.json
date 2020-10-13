@@ -1,6 +1,6 @@
 {
   "name": "redemptor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Website generator and component library. Showcasing ES Modules, rubico, and Arche(React)",
   "author": "Richard Tong",
   "license": "MIT",
