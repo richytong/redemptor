@@ -20,6 +20,7 @@ redemptor create ./path/to/your.hostname.com
 # bucket name will be your.hostname.com
 ```
 
+# Getting Started
 Set up a local development server.
 ```sh
 redemptor serve ./path/to/your.hostname.com
