@@ -1,11 +1,12 @@
 # redemptor
 > contractor, undertaker, purveyor ([wiki](https://en.wiktionary.org/wiki/redemptor))
 
-Create native HTML, CSS, and JavaScript web applications.
+Create dynamic web applications with HTML, CSS, and JavaScript.
 
 ### Features
  * Single Page Application with proper (not hash-based) urls
  * Hot-reloading dev server
+ * First class [JavaScript (ES) modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
  * Simple, extensible, and buildless [Arche(React)](https://github.com/richytong/Arche) application architecture
  * Pipeline-based state management with [rubico](https://rubico.land/)
  * Fill-in-the-blank meta tags for search engine optimization (SEO)
