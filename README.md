@@ -26,6 +26,7 @@ npm i -g redemptor
 Create a new project.
 ```sh
 redemptor create ./path/to/your.hostname.com
+# bucket will be named your.hostname.com
 ```
 
 This generates a project with the following file structure at `./path/to/your.hostname.com/`.
@@ -45,7 +46,7 @@ package.json
  * `style.css` - CSS entrypoint for your application. Contains default, site-wide CSS.
  * `routes.js` - `export default` a single array of paths. Starts as `['/']`
  * `site.webmanifest` - mostly blank configuration for supporting [PWAs](https://web.dev/progressive-web-apps/)
- * `README.md` - readme with just the header # your.hostname.come
+ * `README.md` - readme with just the header
  * `LICENSE` - an MIT license with blank name and year
  * `package.json` - a mostly blank project configuration file
 
