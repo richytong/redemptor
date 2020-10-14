@@ -26,18 +26,28 @@ npm i -g redemptor
 Create a new project.
 ```sh
 redemptor create ./path/to/your.hostname.com
-# bucket name will be your.hostname.com
 ```
 
-This generates a project with the following file structure at `./path/to/your.hostname.com/`
+This generates a project with the following file structure at `./path/to/your.hostname.com/`.
 ```
-README.md - # your.hostname.com
-index.html - site entrypoint + dependencies, defaults to empty metadata
-index.js - JavaScript entrypoint. This renders to a div with id="root"
-style.css - site-wide styles with some defaults
-routes.js - exports a JavaScript array of all the paths you want to serve. Starts as `['/']`
-site.webmanifest - json metadata for progressive web apps, defaults to empty fields
+index.html
+index.js
+style.css
+routes.js
+site.webmanifest
+README.md
+LICENSE
+package.json
 ```
+
+ * `index.html` - the entrypoint to your website. Contains blank metadata fields.
+ * `index.js` - JavaScript entrypoint for your application. Contains a minimal Arche(React) application
+ * `style.css` - CSS entrypoint for your application. Contains default, site-wide CSS.
+ * `routes.js` - `export default` a single array of paths. Starts as `['/']`
+ * `site.webmanifest` - mostly blank configuration for supporting [PWAs](https://web.dev/progressive-web-apps/)
+ * `README.md` - readme with just the header # your.hostname.come
+ * `LICENSE` - an MIT license with blank name and year
+ * `package.json` - a mostly blank project configuration file
 
 Start the hot-reloading development server.
 ```sh
@@ -49,7 +59,7 @@ redemptor serve --port 3000 ./path/to/your.hostname.com
 # specify the port as 3000
 ```
 
-Deploy to Amazon S3
+Author your site and deploy to Amazon S3.
 ```sh
 redemptor publish ./path/to/your.hostname.com
 # default file writing concurrency limit 10
