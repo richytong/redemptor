@@ -1,7 +1,7 @@
 {
   "name": "redemptor",
   "version": "0.0.3",
-  "description": "Generate native HTML, CSS, and JavaScript web applications with React",
+  "description": "Generate native HTML, CSS, and JavaScript web applications, showcasing Arche(React)",
   "author": "Richard Tong",
   "license": "MIT",
   "main": "index.js",

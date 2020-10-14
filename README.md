@@ -1,27 +1,44 @@
 # redemptor
 > contractor, undertaker, purveyor ([wiki](https://en.wiktionary.org/wiki/redemptor))
 
-Generate native HTML, CSS, and JavaScript web applications with React.
+Create native HTML, CSS, and JavaScript web applications.
 
 ### Features
- * History-based routing
+ * Single Page Application with proper (not hash-based) urls
  * Hot-reloading dev server
- * Simple, powerful, and extensible application architecture
- * Fill-in-the-blank Search Engine Optimization (SEO)
+ * Simple, extensible, and buildless [Arche(React)](https://github.com/richytong/Arche) application architecture
+ * Pipeline-based state management with [rubico](https://rubico.land/)
+ * Fill-in-the-blank meta tags for search engine optimization (SEO)
  * Painless deployment to Amazon S3
- * Component library
+ * Fully featured component library
 
-### Requirements
- * AWS Command Line Interface `aws` authorized to create buckets and objects
+### System Requirements
+ * Node.js `node` v10.3.x
+ * AWS Command Line Interface `aws` v2.x, authorized to create buckets and upload files
 
 # Getting Started
-Create a new project and bucket in S3.
+Install globally with `npm`.
+```sh
+npm i -g redemptor
+```
+
+Create a new project.
 ```sh
 redemptor create ./path/to/your.hostname.com
 # bucket name will be your.hostname.com
 ```
 
-Set up a local development server.
+This generates a project with the following file structure at `./path/to/your.hostname.com/`
+```
+README.md - # your.hostname.com
+index.html - site entrypoint + dependencies, defaults to empty metadata
+index.js - JavaScript entrypoint. This renders to a div with id="root"
+style.css - site-wide styles with some defaults
+routes.js - exports a JavaScript array of all the paths you want to serve. Starts as `['/']`
+site.webmanifest - json metadata for progressive web apps, defaults to empty fields
+```
+
+Start the hot-reloading development server.
 ```sh
 redemptor serve ./path/to/your.hostname.com
 # serve port 8000 by default
@@ -34,14 +51,8 @@ redemptor serve --port 3000 ./path/to/your.hostname.com
 Deploy to Amazon S3
 ```sh
 redemptor publish ./path/to/your.hostname.com
-# default file writing concurrency limit 10 (recommended)
+# default file writing concurrency limit 10
 
 redemptor publish --concurrency 20 ./path/to/your.hostname.com
 # bump the concurrency limit to 20
-```
-
-# Installation
-Install globally with `npm`.
-```sh
-npm i -g redemptor
 ```
