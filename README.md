@@ -23,10 +23,10 @@ Install globally with `npm`.
 npm i -g redemptor
 ```
 
-Create a new project.
+Create a new project as your domain name.
 ```sh
-redemptor create ./path/to/your.hostname.com
-# bucket will be named your.hostname.com
+redemptor create ./path/to/your.domain.com
+# bucket will be named your.domain.com
 ```
 
 This generates a project with the following file structure at `./path/to/your.hostname.com/`.
